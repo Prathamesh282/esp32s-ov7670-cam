@@ -39,13 +39,19 @@ This project leverages the low-cost ESP32 and OV7670 camera to build a real-time
 - **ESP32 Microcontroller:**  
   Acts as the main controller to capture and stream images.
 
+  ![ESP32S Overview](assets/boardconfig.jpeg)
+
 - **OV7670 Camera Module:**  
   Connected to the ESP32 via I2C (for configuration) and a parallel interface (for image data).
+
+  ![Camera Overview](assets/camera.jpeg)
 
 - **Connections:**  
   - SDA/SIOC for I2C control  
   - VSYNC, HREF, XCLK, PCLK for synchronization and clock signals  
   - D0–D7 for parallel data output
+
+  ![Connections Overview](assets/pins.jpeg)![Wiring](assets/board.jpeg)
 
 - **Optional Components:**  
   - TFT Display (if local viewing is desired)  
