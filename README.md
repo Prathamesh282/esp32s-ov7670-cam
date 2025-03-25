@@ -51,7 +51,9 @@ This project leverages the low-cost ESP32 and OV7670 camera to build a real-time
   - VSYNC, HREF, XCLK, PCLK for synchronization and clock signals  
   - D0–D7 for parallel data output
 
-  ![Connections Overview](assets/pins.jpeg)![Wiring](assets/board.jpeg)
+  ![Connections Overview](assets/pins.jpeg)
+
+  ![Wiring](assets/board.jpeg)
 
 - **Optional Components:**  
   - TFT Display (if local viewing is desired)  
